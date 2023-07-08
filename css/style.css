@@ -1,0 +1,219 @@
+*
+{
+
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* outline: none;
+border: none;
+text-decoration: none;
+transition: all .1s linear; */
+}
+
+/* Body Style********************************* */
+body {
+   background-color: #F9EBE2;
+   
+   
+}
+.head{
+    height: 50px;
+    width: 280px;
+    background-color: #EED0CE;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 40px 20px 40px 5px yellow outset;
+
+}
+h1{
+    text-align: center;
+    color: #594741;
+   
+}
+p{
+    margin-top: 100px;
+    color: #514239;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+/* ******************************************animation1 */
+.div1{
+    width: 80px;
+    height: 80px;
+    background-image: url(../Images/documents\ 1.png);
+    background-size: cover;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+    margin-top: 15px;
+    
+}
+@keyframes move{
+    0% {
+        left: 0px;
+      }
+      100% {
+        left: 1412px;
+      }
+}
+
+
+/* *********************************************************************animation2 */
+
+.div2{
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 1412px;
+    background-image: url(../Images/lightbulb\ 1.png);
+    background-size: cover;
+    /* background-color: #FCDEC4; */
+    position: absolute;
+    animation-delay: 3s;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+  
+    
+
+}
+@keyframes move1{
+    0% {
+       
+      }
+    100% {
+        left: 0px;
+      }
+}
+
+
+/* *********************************************************************animation3 */
+.div3{
+    width: 100px;
+    height: 100px;
+    top: 350px;
+    left: 0px;
+    background-image: url(../Images/prototype\ 1.png);
+    background-size: cover;
+    position: absolute;
+    animation-delay: 6s;
+    animation-name: move3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+  
+    
+
+}
+@keyframes move3{
+    0% {
+        left: 0px;
+      }
+    100% {
+        left: 1412px;
+      }
+}
+
+
+/* *********************************************************************animation4 */
+.div4{
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    left: 1412px;
+    background-image: url(../Images/prototype\(1\)\ 1.png);
+    background-size: cover;
+    position: absolute;
+    animation-delay: 9s;
+    animation-name: move4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+  
+    
+
+}
+@keyframes move4{
+    0% {
+        left: 1412px;
+      }
+    100% {
+        left: 0px;
+      }
+}
+
+/* *********************************************************************animation5 */
+.div5{
+    width: 100px;
+    height: 100px;
+    top: 650px;
+    left: 0px;
+    background-image: url(../Images/test\ 1.png);
+    background-size: cover;
+    position: absolute;
+    animation-delay: 12s;
+    animation-name: move5;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+  
+    
+
+}
+@keyframes move5{
+    0% {
+        left: 0px;
+      }
+    100% {
+        left: 1412px;
+      }
+}
+/* *********************************************************************animation6 */
+.div6{
+    width: 100px;
+    height: 100px;
+    top: 800px;
+    left: 1412px;
+    background-image: url(../Images/115892.png);
+    background-size: cover;
+    position: absolute;
+    animation-delay: 15s;
+    animation-name: move6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: linear;
+  
+    
+
+}
+@keyframes move6{
+    0% {
+        left: 1412px;
+      }
+    100% {
+        left: 0px;
+      }
+}
